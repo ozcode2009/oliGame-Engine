@@ -25,6 +25,9 @@ To render the scene, it calls SceneManager.setupRender. All objects add themselv
 
 ## Asset Credits:
 prinmath.com
+
 kenny.nl
+
 Quaternius
+
 The Blender Foundation
