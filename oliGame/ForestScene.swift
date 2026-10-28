@@ -70,13 +70,11 @@ class ForestScene: Scene{
         //char.childNode(named: "Skeleton")?.runAnimation(animation)
 
         
-        let charInstanced = Characters(count: 5)
+        let charInstanced = Characters(count: 2)
         addChild(charInstanced)
         
         for (x, skeletonNode) in (charInstanced.childNode(named: "Skeleton") as? InstancedGameObject)?._nodes.enumerated() ?? [].enumerated(){
-            if((x % 2) != 0){
                 skeletonNode.runAnimation(AnimationsLibrary.animations.first!.0)
-            }
         }
 
  

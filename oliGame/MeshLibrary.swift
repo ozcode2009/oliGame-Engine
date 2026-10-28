@@ -18,7 +18,7 @@ enum MeshTypes{
    case Chest
    case Quad
    case SkySphere
-   case RegSphere
+   //case RegSphere
    case TransparentCube
    //Terrain
    case GroundGrass
@@ -62,7 +62,7 @@ class MeshLibrary: Library<MeshTypes, Mesh>{
       _library.updateValue(Mesh(modelName: "flower_purpleA"), forKey: .flower_purple)
       _library.updateValue(Mesh(modelName: "flower_yellowA"), forKey: .flower_yellow)
       
-      _library.updateValue(Mesh(modelName: "untitled"), forKey: .RegSphere)
+      //_library.updateValue(Mesh(modelName: "untitled"), forKey: .RegSphere)
       _library.updateValue(Mesh(modelName: "untitled2"), forKey: .TransparentCube)
       
       _library.updateValue(Mesh(modelName: "Character", fileExtension: "usdz"), forKey: .BunnyCharacter)

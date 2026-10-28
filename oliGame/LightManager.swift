@@ -29,8 +29,8 @@ class LightManager{
     func createShadowRenderPassDescriptor(index: Int){
 
         let shadowDepthTextureDescriptor = MTLTextureDescriptor.texture2DDescriptor(pixelFormat: .depth32Float,
-                                                                                    width: Int(Renderer.ScreenSize.x),
-                                                                                    height: Int(Renderer.ScreenSize.y),
+                                                                                    width: 1000,
+                                                                                    height: 1000,
                                                                                     mipmapped: false)
         
 

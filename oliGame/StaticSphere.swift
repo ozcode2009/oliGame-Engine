@@ -4,7 +4,8 @@
 //
 //  Created by Oliver Crumrine on 2/13/23.
 //
-
+//Lost the cube map vertical file and the mesh file for this
+/*
 import Foundation
 
 class StaticSphere: GameObject {
@@ -17,3 +18,4 @@ class StaticSphere: GameObject {
         
     }
 }
+*/
