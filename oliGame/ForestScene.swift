@@ -64,6 +64,15 @@ class ForestScene: Scene{
         //let char2 = TopLevelObjectLibrary.genGameObject(modelName: "Character")
         //addChild(char2)
         //char2.moveZ(4.5)
+        
+        //Transparent cube:
+        let transparentCube = Assets.Meshes[.TransparentCube]?.gameObject
+        transparentCube?.setPositionY(1.01)
+        transparentCube?.setPositionZ(10)
+        transparentCube?.setPositionX(-4)
+        if let transparentCube = transparentCube {
+            addChild(transparentCube)
+        }
 
         let (animation, _) = AnimationsLibrary.animations.first!
 
